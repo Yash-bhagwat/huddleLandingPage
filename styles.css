@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,600i");
+/* This has been refined for iPad and laptop but still doesn't work out for iPhone and other mobiles */
+header {
+  font-family: Poppins;
+  background-image: url(/images/bg-hero-desktop.svg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+  font-size: 16px;
+  overflow-x: hidden;
+}
+.initial {
+  position: relative;
+  margin-bottom: 500px;
+}
+.logo {
+  margin-top: 5vh;
+  margin-left: 10vh;
+  height: 50%;
+  width: 12.5%;
+}
+#free {
+  top: 5vh;
+  right: 10vh;
+  height: 4rem;
+  position: absolute;
+  border-radius: 3rem;
+  padding: 8px 120px;
+  background-color: #fff;
+  font-weight: 700;
+  color: navy;
+  box-shadow: 1px 2px 3px #b3b3b3;
+}
+.sides {
+  display: flex;
+  flex-direction: row;
+}
+#left-side {
+  width: 47%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 150px;
+  font-size: 1.3em;
+}
+#right-side {
+  width: 53%;
+  margin-right: 7%;
+}
+.torrent {
+  max-width: 100%;
+  max-height: autos;
+}
+h1 {
+  font-weight: 800;
+}
+.paragon {
+  margin-top: 20px;
+  box-shadow: 1px 2px 3px pink;
+  border-radius: 50px;
+  width: 300px;
+  background-color: #ff4dd2;
+  padding: 20px;
+  color: white;
+}
+
+.paragon:hover {
+  background-color: #ff1ac6;
+}
+.topics {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px rgba(208, 208, 208, 0.7);
+  display: flex;
+  margin-bottom: 100px;
+  flex-direction: row;
+}
+.boss {
+  width: 500px;
+  height: auto;
+  right: 0;
+  padding: 40px;
+  margin-left: 30px;
+}
+.text {
+  width: 60%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-align: left;
+}
+#flow {
+  flex-direction: row-reverse;
+}
+main {
+  font-family: Open Sans;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 100px;
+  font-size: 1.2em;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.register {
+  width: 55%;
+  min-width: 400px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  margin: auto;
+  overflow: auto;
+  z-index: 1;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding: 50px;
+  padding-left: 150px;
+  font-family: Poppins;
+}
+
+.footer-logo {
+  margin-top: 100px;
+  margin-left: 25px;
+  color: white;
+  filter: brightness(0) invert(1);
+}
+
+.icons {
+  padding-right: 0.5em;
+  width: 5%;
+}
+
+.fab {
+  margin-right: 5px;
+  padding: 5px;
+  color: white;
+  border: solid;
+  border-radius: 100%;
+  border-width: thin;
+}
+
+.register {
+  width: 55%;
+  min-width: 400px;
+  text-align: center;
+  position: relative;
+  overflow: auto;
+  z-index: 1;
+  top: 80px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px #b3b3b3;
+  background-color: white;
+}
+
+.card-title {
+  font-size: 2em;
+}
+
+.aragog {
+  width: 450px;
+  height: 80px;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.god {
+  display: flex;
+  flex-direction: row;
+}
+.universal {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+#part1 {
+  width: 30%;
+  margin-right: 7.5%;
+}
+
+#part2 {
+  width: 10%;
+  margin-right: 2.5%;
+}
+
+#part3 {
+  margin-right: 7.5%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.social {
+  text-align: center;
+}
+
+.fab {
+  margin-right: 5px;
+  padding: 5px;
+  color: white;
+  border: solid;
+  border-radius: 100%;
+  border-width: thin;
+}
+
+@media screen and (max-width: 992px) {
+  #free {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  header {
+    text-align: center;
+    background: url(/images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    height: auto;
+    padding: 25pxn;
+  }
+
+  .topics {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #flow {
+    flex-direction: column-reverse;
+  }
+
+  .register {
+    width: 90%;
+    font-size: 0.83em;
+  }
+
+  .sides {
+    flex-direction: column;
+  }
+
+  #left-side {
+    width: 80%;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 10%;
+    margin-top: 150px;
+  }
+
+  .paragon {
+    font-size: 1.1em;
+    font-weight: 700;
+    width: 80%;
+    height: auto;
+  }
+
+  .torrent {
+    max-width: 140%;
+    max-height: auto;
+    padding-left: 25%;
+  }
+
+  .text {
+    width: 90%;
+    margin-right: 7%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .logo {
+    position: absolute;
+    left: -40px;
+    width: 200px;
+    height: auto;
+  }
+
+  .footer-logo {
+    position: absolute;
+    left: 50px;
+  }
+
+  .god {
+    padding: 150px 25px 0px 25px;
+  }
+
+  .universal {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+  }
+
+  .god {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    max-width: 100%;
+    padding-left: 15px;
+  }
+
+  #part1,
+  #part2,
+  #part3 {
+    width: 100%;
+    align-items: flex-start;
+  }
+}
