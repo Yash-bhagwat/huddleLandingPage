@@ -320,7 +320,7 @@ footer {
   }
 
   footer {
-    max-width: 100%;
+    max-width: 92%;
     padding-left: 15px;
   }
 
@@ -329,5 +329,11 @@ footer {
   #part3 {
     width: 100%;
     align-items: flex-start;
+  }
+  .universal {
+    padding-left: 20px;
+  }
+  #location {
+    margin-left: -15px;
   }
 }
