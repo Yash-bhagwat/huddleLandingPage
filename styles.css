@@ -46,6 +46,8 @@ header {
 #right-side {
   width: 53%;
   margin-right: 7%;
+  position: relative;
+  top: 15vh;
 }
 .torrent {
   max-width: 100%;
@@ -122,7 +124,7 @@ footer {
   background-color: hsl(192, 100%, 9%);
   color: white;
   position: absolute;
-  width: 100%;
+  width: 100% - 200px;
   padding: 50px;
   padding-left: 150px;
   font-family: Poppins;
@@ -254,6 +256,9 @@ footer {
   #flow {
     flex-direction: column-reverse;
   }
+  h2 {
+    font-size: 1.5em;
+  }
 
   .register {
     width: 90%;
@@ -271,7 +276,10 @@ footer {
     margin: 10%;
     margin-top: 150px;
   }
-
+  #right-side {
+    top: 0vh;
+    margin-bottom: 5rem;
+  }
   .paragon {
     font-size: 1.1em;
     font-weight: 700;
@@ -335,5 +343,46 @@ footer {
   }
   #location {
     margin-left: -15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #free {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    padding: 4px 10vw;
+  }
+  .logo {
+    width: 33vw;
+  }
+
+  #left-side {
+    font-size: 1.1em;
+  }
+
+  body {
+    font-size: 0.72em;
+  }
+
+  .text {
+    width: 90%;
+    margin-right: 7%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .boss {
+    width: 350px;
+  }
+
+  .boss {
+    width: 60vw;
+    margin: 0 4vw 0 0;
+  }
+
+  .register {
+    transform: scale(0.75);
+    min-width: 0;
   }
 }
